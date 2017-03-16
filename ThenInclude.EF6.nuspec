@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Lenny32</authors>
+    <owners>Lenny32</owners>
+    <projectUrl>https://github.com/Lenny32/ThenInclude</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>
+      ThenInclude like in .Net core for EntityFramework 6
+    </releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Include ThenInclude Including </tags>
+  </metadata>
+</package>
