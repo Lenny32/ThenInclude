@@ -7,7 +7,7 @@ namespace System.Data.Entity
 {
     public static class HelperQueryInclude
     {
-        public static IIncludableQueryable<TEntity, TProperty> Including<TEntity, TProperty>(this IQueryable<TEntity> source, Expression<Func<TEntity, TProperty>> path)
+        public static IIncludableQueryable<TEntity, TProperty> Including<TEntity, TProperty>(this IQueryable<TEntity> source, Expression<Func<TEntity, TProperty>> path) where TProperty : class
         {
             return System.Data.Entity.Include.QueryInclude.Include(source, path);
         }

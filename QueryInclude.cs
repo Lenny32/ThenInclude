@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 using ThenInclude.EF6;
-
+using System.Data.Entity;
 
 namespace System.Data.Entity.Include
 {
