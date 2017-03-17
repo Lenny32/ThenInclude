@@ -3,7 +3,7 @@ ThenInclude like in .Net core for EntityFramework 6
 
 Example
 ```csharp
-using System.Data.Entity.Include;
+using System.Data.Entity;
 
 var thenInclude = context.One.Include(x => x.Twoes)
     .ThenInclude(x=> x.Threes)
