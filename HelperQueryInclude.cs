@@ -11,7 +11,7 @@ namespace System.Data.Entity
         {
             return System.Data.Entity.Include.QueryInclude.Include(source, path);
         }
-        public static IIncludableQueryable<TEntity, TProperty> ThenInclude<TEntity, TPreviousProperty, TProperty>(
+        public static IIncludableQueryable<TEntity, TProperty> ThenIncluding<TEntity, TPreviousProperty, TProperty>(
            this IIncludableQueryable<TEntity, IEnumerable<TPreviousProperty>> source,
            Expression<Func<TPreviousProperty, TProperty>> navigationPropertyPath)
            where TEntity : class
