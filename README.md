@@ -1,6 +1,12 @@
 # ThenInclude
 ThenInclude like in .Net core for EntityFramework 6
 
+## Download
+To install ThenInclude.EF6, run the following command in the Package Manager Console:
+    
+	PM> Install-Package ThenInclude.EF6
+
+
 Example
 
 ```csharp
